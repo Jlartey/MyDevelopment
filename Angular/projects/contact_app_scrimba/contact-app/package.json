@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "dependencies": {
+    "@angular/animations": "5.2.7",
+    "@angular/common": "5.2.7",
+    "@angular/compiler": "5.2.7",
+    "@angular/core": "5.2.7",
+    "@angular/forms": "5.2.7",
+    "@angular/http": "5.2.7",
+    "@angular/platform-browser": "5.2.7",
+    "@angular/platform-browser-dynamic": "5.2.7",
+    "@angular/router": "5.2.7",
+    "core-js": "2.5.3",
+    "rxjs": "5.5.6",
+    "zone.js": "0.8.20"
+  },
+  "devDependencies": {
+    "webpack": "^2.0",
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "ts-loader": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
